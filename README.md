@@ -1,6 +1,8 @@
 # Huffman En/Decoding systeam  
 This system supports effective Huffman encoding and decoding for a wide range of non-English languages including Chinese, Spanish, German, French, Japanese, Russian, and others, as well as special characters.
 
+Simultaneously, the system also supports encoding and decoding tasks for tens of millions of characters, enabling the swift and efficient handling of large text files.
+
 # How to use   
 To encode text, prepare your content without worrying about language, script, or special characters, and place it in a text file (1.txt). Our application will then process the original text file, automatically generating a code table (2.txt) and the encoded text (encodedFile.txt), both of which will be written and stored in corresponding text files in the same directory.
 
