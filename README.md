@@ -1,12 +1,13 @@
-# Huffman-en/decoding-systeam  
-可以对中文，西班牙语，德语，法语，日语，俄语等广大的非英文语言与特殊字符进行有效支持的哈夫曼编/解码系统。   
-# 使用方法   
-准备好待编码的文本内容（准备的文本内容不受语言文字与特殊符号的限制）并将文本内容相应的文本文件（1.txt）中，即可使用我们的应用程序对原始文本文件进行编码，选择编码后程序将根据原始文本自动生成编码表(2.txt）和编码文本（encodedFile.txt），且均会自动写入并存储在同级目录下相应的文本文件中。   
+# Huffman En/Decoding systeam  
+This system supports effective Huffman encoding and decoding for a wide range of non-English languages including Chinese, Spanish, German, French, Japanese, Russian, and others, as well as special characters.
 
-将编码表文件(2.txt）与编码文本文件（encodedFile.txt）进行传输或其他操作之后，只需要在同级目录下再次运行我们的应用程序对其进行解码操作，程序将自动生成解码后的文本内容，写入并存储到同级目录下的相应的文本文件（3.txt）中。  
+# How to use   
+To encode text, prepare your content without worrying about language, script, or special characters, and place it in a text file (1.txt). Our application will then process the original text file, automatically generating a code table (2.txt) and the encoded text (encodedFile.txt), both of which will be written and stored in corresponding text files in the same directory.
 
-在使用我们的应用程序的过程中，用户不需要了解哈夫曼树和哈夫曼编码等相关知识与程序中编解码操作的具体实现过程，也不需要对计算机进行任何环境的配置与调试过程，只需要运行我们编写的程序即可对文本内容进行编/解码操作。  
+After the code table file (2.txt) and the encoded text file (encodedFile.txt) have been transferred or otherwise processed, you can decode them by running our application again in the same directory. The program will automatically generate the decoded text and save it to a corresponding text file (3.txt) in the same directory.
 
-## License
+Users don't need to understand the details of Huffman trees or Huffman coding, nor the specifics of the encoding/decoding process implemented in the program. There's no need for any environment configuration or debugging on the computer. Simply run our provided program to perform encoding/decoding operations on your text content.
+
+# License
 
 MIT License. See [License here](./LICENSE) for details.
